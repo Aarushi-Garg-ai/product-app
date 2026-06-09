@@ -1,0 +1,78 @@
+body{
+        background-color: rgb(107, 88, 61);
+    }
+    .products{
+        width: 80vw;
+        height: 40vh;
+        background-color:antiquewhite;
+        font-size: 30px;
+        border: 2px solid rgb(65, 1, 1);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 15% 80%;
+        padding: 10px;
+    }
+    #info{
+        align-self: center;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+    img:hover{
+    transform:scale(1.5);
+    transition:all 0.3s ease-in-out;
+    }
+    #cart{
+        margin-top: 50px;
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content:end;
+    }
+    #icon1{
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    #err{
+        font-size: 50px;
+        color: white;
+    }
+    #productlist{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-self:center;
+
+    }
+    #main{
+        display: flex;
+        justify-self: center;
+        margin-top: 40px;
+    }
+
+    button{
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    #sea{
+        width: 300px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    #filter{
+        width: 250px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    
